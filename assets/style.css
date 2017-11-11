@@ -8,6 +8,12 @@ body{
 #main{
   background-color: black;
 }
+#my-face{
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
 #the-middle{
   padding: 30px;
   width: 960px;
