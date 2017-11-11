@@ -22,6 +22,7 @@ body{
 	width: 650px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
+	height: 400px;
 }
 #sidebar{
   margin-left: 20px;
@@ -31,8 +32,11 @@ body{
 	background-color: #ffffff;
   height: 150px;
 }
+.bar{
+	min-height: 10px;
+}
 .bottom{
-  width: 200px;
+  max-width: 400px;
   margin-top: 35px;
 }
 #header{
@@ -45,6 +49,8 @@ body{
   border-bottom: 1px solid #cccccc;
 }
 #footer{
+	text-align: center;
+	padding: 40px;
 	background-color: #666666;
 	color: white !important;
 }
