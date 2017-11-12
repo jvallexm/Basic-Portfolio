@@ -6,13 +6,16 @@ body{
   		font-family: 'Georgia', Times, Times New Roman, serif;
 }
 #main{
-  background-color: black;
+  background-color: blue;
 }
 #my-face{
 	height: 150px;
 	width: 150px;
 	float: left;
 	margin-right: 20px;
+}
+#about{
+	margin-top: 25px;
 }
 #the-middle{
   padding: 30px;
@@ -24,10 +27,11 @@ body{
 	text-align: center;
 }
 #content{
-  padding: 20px;
+  padding: 30px;
 	width: 650px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
+
 }
 #quote{
 	margin-bottom: 20px;
