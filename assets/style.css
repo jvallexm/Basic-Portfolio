@@ -108,6 +108,22 @@ button{
 	padding-left: 35px;
   	padding-right: 35px;
 }
+.spacer{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.black-back{
+  background-color: black;
+  height: 200px;
+  width: 265px;
+}
 .padder{
 	min-height: 20px;
+}
+.obi{
+  position: absolute;
+  width: 265px;
+  padding: 16px;
+  z-index: 1;
+  margin-top: -75px;
 }
