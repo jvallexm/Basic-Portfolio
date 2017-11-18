@@ -86,9 +86,12 @@ body{
   	color: #777777;
 }
 .teal-text{
-  	font-weight: bold;
+  font-weight: bold;
 	color: #4aaaa5;
 }
+
+/*Form Styles*/
+
 input{
   	width: 100%;
 }
@@ -108,23 +111,31 @@ button{
 	padding-left: 35px;
   	padding-right: 35px;
 }
-.spacer{
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-.black-back{
-  background-color: black;
-  height: 180px;
-  width: 265px;
-}
+
 .padder{
 	min-height: 20px;
 }
+
+/*Portfolio Styles */
+
+.spacer{
+  /*Spaces the middle row*/
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.project{
+  /*Each project*/
+  height: 180px;
+  width: 265px;
+}
+
 .obi{
+  /*Strip over each project */
   position: absolute;
   width: 265px;
-  padding-top: 18px;
+  padding-top: 16px;
   padding-bottom: 8px;
   z-index: 1;
-  margin-top: -70px;
+  margin-top: -65px;
 }
