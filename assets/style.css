@@ -120,17 +120,17 @@ button{
   	border-radius: 0;
  	padding: 10px;
 	padding-left: 35px;
-  	padding-right: 35px;
+  padding-right: 35px;
 }
 
 .padder{
 	min-height: 20px;
 }
 
-/*Portfolio Styles */
+/* Portfolio Styles */
 
 .spacer{
-  /*Spaces the middle row*/
+  /* Spaces the middle row */
   margin-top: 45px;
   margin-bottom: 45px;
 }
@@ -142,7 +142,7 @@ button{
 }
 
 .obi{
-  /*Strip over each project */
+  /* Strip over each project */
   position: absolute;
   width: 250px;
   padding-top: 16px;
