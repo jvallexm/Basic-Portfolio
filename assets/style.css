@@ -20,18 +20,21 @@ body{
 #the-middle{
   padding: 30px;
   width: 960px;
-  display: flex;
-  direction: column;
+}
+div.container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .center{
 	text-align: center;
 }
 #content{
   padding: 30px;
-	width: 650px;
+	width: 590px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
-
+  float: left;
 }
 #quote{
 	margin-bottom: 20px;
@@ -42,15 +45,17 @@ body{
 	margin-top: 10px;
 }
 #sidebar{
-    margin-left: 20px;
-    padding: 20px;
+  margin-left: 20px;
+  padding: 20px;
 	width: 270px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
  	height: 180px;
+  float:right;
 }
 .bar{
 	min-height: 10px;
+  clear: left;
 }
 .bottom{
   	max-width: 400px;
@@ -127,13 +132,13 @@ button{
 .project{
   /*Each project*/
   height: 180px;
-  width: 265px;
+  width: 250px;
 }
 
 .obi{
   /*Strip over each project */
   position: absolute;
-  width: 265px;
+  width: 250px;
   padding-top: 16px;
   padding-bottom: 8px;
   z-index: 1;
