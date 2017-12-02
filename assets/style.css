@@ -15,6 +15,7 @@ body{
 #the-middle{
   padding: 30px;
   width: 960px;
+  margin-bottom: 60px;
 }
 #the-middle::after {
   content: "";
@@ -31,7 +32,9 @@ body{
 	background-color: #ffffff;
   float: left;
 }
-
+.bland{
+  text-decoration: none;
+}
 .icon{
 	width: 65px;
 	height: 65px;
@@ -64,8 +67,13 @@ body{
   	border-bottom: 2px solid #cccccc;
 }
 #footer{
+  border-top: 10px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+  z-index:1;
+  width: 100%;
 	text-align: center;
-	padding: 40px;
+	padding: 30px;
 	background-color: #666666;
 	color: white !important;
 }
@@ -117,7 +125,7 @@ h5{
   	padding-bottom: 0px;
 }
 button{
-  	border-radius: 0;
+  border-radius: 0;
  	padding: 10px;
 	padding-left: 35px;
   padding-right: 35px;
